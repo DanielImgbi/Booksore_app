@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    /* background: black; */
+}
+body::-webkit-scrollbar{
+    width: 5px;
+    /* background: ; */
+}
+
+header{
+    height: 9%;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#logodiv{
+    height: 64px;
+    width: 200px;
+    background: black;
+    border-radius: 7px;
+}
+#logodiv img{
+    height: 100%;
+    width: 100%;
+}
+ #navl{
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    right:  310px;
+    top: 56px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    display: none;
+    box-shadow: 0px 0px 4px rgb(4, 4, 4);
+}
+#navl ul li{
+    color: black;
+     padding-left: 4px;
+    border-bottom: 1px solid black;
+    margin: 4px;
+    box-shadow: 0px 0px 4px rgb(4, 4, 4);
+
+ }
+ #navl ul li a{
+    color: black;
+ }
+ #navl ul li:hover{
+    background: blue;
+ }
+
+ #menu{
+    height: 50px;
+    width: 60px;
+    /* background: blue; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+ }
+ 
+#menu:hover #navl{
+    display: block;
+
+    
+}
+
+.hd2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    width: 400px;
+    background: white;
+    padding-right: 20px;
+    border-radius: 7px; 
+
+}
+#increment{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+
+
+}
+#button{
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    color: black;
+}
+#button a{
+    cursor: pointer;
+    color: black;
+}
+#my-main{
+    width: 100%;
+    height: 99%;
+    margin-top: 4.5%;
+    /* background: yellow; */
+
+}

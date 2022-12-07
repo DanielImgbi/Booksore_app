@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: calibri;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    transition: .8s;
+}
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+section{
+    height: 90vh;
+    width: 150vh;
+    /* background: deepskyblue; */
+    margin-left: 120px ;
+}
+.adiv{
+    height: 50px;
+    width: 300px;
+    /* background: red; */
+    font-size: 20PX;
+    display: flex;
+    align-items: center;
+}
+.book-con{
+    height: 71%;
+    width: 50%;
+    /* background: blue; */
+    /* border-radius: 9px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.book-con img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+#bookdiv{
+    height: 100%;
+    width: 70%;
+    /* background: green; */
+    border-radius: 9px;
+    border: 1px solid black;
+}
+#img-con{
+    height: 77%;
+    width: 100%;
+}
+#book-info{
+    height: 20%;
+    width: 90%;
+    /* background: green; */
+    margin: 0 auto;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+#ATB-btn{
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border: none;
+    margin-left: 10px;
+}

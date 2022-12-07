@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "cover": "https://books.google.pl/books/publisher/content?id=mZunDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&sig=ACfU3U07lP3riniWKMhZBYyJJ6DAX_jcFg&w=1280",
+    "metaTitle": "BOOK STORE | The Catcher in the Rye by J. D. Salinger",
+    "metaDescription": "The Catcher in the Rye is a novel by J. D. Salinger, partially published in serial form in 1945–1946 and as a novel in 1951"
+    },
+    {
+    "id": 2,
+    "title": "The Green Mile",
+    "author": "Stephen King",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373903563l/11566.jpg",
+    "metaTitle": "BOOK STORE | The Green Mile by Stephen King",
+    "metaDescription": "The Green Mile is a 1996 serial novel by American writer Stephen King."
+    }
+]

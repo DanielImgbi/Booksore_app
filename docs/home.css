@@ -1,0 +1,105 @@
+*{
+    font-family: calibri;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* color: black; */
+    transition: .8s;
+
+}
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    /* background: orange; */
+    display: flex;
+    justify-content: center;
+}
+section{
+    height: 100%;
+    width: 90%;
+    /* background: red; */
+    margin-left: 120px;
+    
+}
+#div1{
+    height: 40%;
+    width: 100%;
+    /* background: blue; */
+}
+h1{
+    /* background: yellow; */
+    font-size: 50px;
+    margin-bottom: 0;
+    /* margin-top: 10px; */
+
+}
+span{
+    color: blue;
+}
+h3{
+    margin-top: 0;
+    /* background: yellowgreen; */
+    margin-bottom: 10px;
+
+}
+#div2{
+    height: 60%;
+    width: 100%;
+    /* background: yellow; */
+    margin-top: 10px;
+    display: flex;
+
+
+}
+#lib-img{
+    height: 100%;
+    width: 70%;
+}
+#div2 img{
+    height: 100%;
+    width: 100%;
+}
+#lib-div{
+    /* height: 100%; */
+    width:30% ;
+    /* background: orangered; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: auto;
+}
+#lib-div::-webkit-scrollbar{
+    width: 5px;
+}
+.books{
+    border-radius: 7px;
+    height: 45%;
+    width:75% ;
+    margin: 4px;
+    border: 0.1px solid black;
+    color: blue;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.books .title{
+    height: 30%;
+    width: 90%;
+    font-size: 20px;
+   color: white;
+   /* background: yellow; */
+   font-weight: 550;
+
+}
+.books .description{
+    height: 60%;
+    width: 90%;
+   color: white;
+   /* background: yellow; */
+
+}
