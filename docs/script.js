@@ -9,14 +9,14 @@ const route = (event) => {
 
 const routes = {
     404: "404.html",
-    "/Bookstore_app/docs/home":"home.html",
+    "/Bookstore_app/home":"home.html",
     "/Bookstore_app/books": "books.html",
     "/Bookstore_app/basket": "basket.html"
 };
 
 const handleLocation = async () => {
     const path = window.location.pathname;
-    const route = routes[path] || routes['/Bookstore_app/docs/home'];
+    const route = routes[path] || routes['/Bookstore_app/home'];
     const html = await fetch(route).then((data) => data.text());
     document.getElementById('my-main').innerHTML = html;
 
