@@ -34,7 +34,7 @@ const handleLocation = async () => {
         
         console.log('Welcome to Upflex')
         
-        if(path === "/docs/home" || path === "/docs/index.html" || path === "/docs/" ){
+        if(path === "/Bookstore_app/home" || path === "/Bookstore_app/index.html" || path === "/Bookstore_app/" ){
             const api_url = "/docs/book.json"; // the API
 
         console.log('Welcome to the next part')
@@ -54,8 +54,8 @@ const handleLocation = async () => {
                 output.forEach(i => {   
                     document.getElementById('lib-div').innerHTML += ` 
                     <div class="books" id="bk1">
-                    <a  href="/docs/books" onclick="route()"  class="title a">${i.title}</a>
-                    <a  href="/docs/books" onclick="route()"  class="description a">${i.metaDescription}</a>                   
+                    <a  href="/Bookstore_app/books" onclick="route()"  class="title a">${i.title}</a>
+                    <a  href="/Bookstore_app/books" onclick="route()"  class="description a">${i.metaDescription}</a>                   
                     </div>`;
 
 
@@ -80,7 +80,7 @@ const handleLocation = async () => {
             getBooks()
         }
 
-        else if(path === "/docs/books" || path === "/docs/home" || path === "/docs/"  ){
+        else if(path === "/Bookstore_app/books" || path === "/Bookstore_app/home" || path === "/Bookstore_app/"  ){
             selectedBook.forEach(j => {
                 document.getElementById('book-sec').innerHTML = ` 
                 <div class="adiv">
@@ -127,7 +127,7 @@ const handleLocation = async () => {
             
 
         }
-        else if(path === "/docs/basket"){
+        else if(path === "/Bookstore_app/basket"){
             
             basket.forEach((k) => {
                 k.forEach(function(book){
